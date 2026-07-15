@@ -1,7 +1,6 @@
 package Com.loops;
 
 public class HarshadNumber {
-	
 	public int getSum(int num) {
 		int sum = 0;
 		int temp=num;
