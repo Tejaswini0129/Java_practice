@@ -37,6 +37,7 @@ public class Employee {
 	}
 	public void setSalary() {
 		this.salary = salary;
+		System.out.println("");
 	}
 	
 	public void promoteEmployee() {
