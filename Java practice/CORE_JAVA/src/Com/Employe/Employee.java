@@ -37,7 +37,7 @@ public class Employee {
 	}
 	public void setSalary() {
 		this.salary = salary;
-		System.out.println("");
+		
 	}
 	
 	public void promoteEmployee() {
@@ -47,8 +47,10 @@ public class Employee {
 			empDesg = "senior"+" "+empDesg;
 			
 			System.out.println("After Promotion");
+			System.out.println("----------------");
 			System.out.println("New Designation :"+empDesg);
 			System.out.println("Updated Salary :"+salary);
+			
 		}else {
 			System.out.println("No Promotion");
 		}
